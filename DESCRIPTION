@@ -1,0 +1,16 @@
+Package: edpr
+Type: Package
+Title: Resolution d'EDP Paraboliques par Differences Finies
+Version: 0.1.0
+Authors@R: 
+    person("Vianney Ledoux", "Motsou Tatsi",
+           email = "vianneytatsi@gmail.com",
+           role = c("aut", "cre"))
+Description: Resout numeriquement des equations aux derivees partielles
+    paraboliques (diffusion) en deux dimensions d'espace et en temps.
+    Le package decrit un probleme, le resout par differences finies,
+    le valide face a une solution exacte et trace le resultat.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: graphics, grDevices
+Config/roxygen2/version: 8.1.1
